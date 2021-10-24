@@ -1,0 +1,29 @@
+// Here you can add other styles
+
+.main .container-fluid {
+    padding: 0px 22px 46px 22px;
+}
+
+.card-button {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+    border-top: 1px solid #c8ced2;
+    padding: 10px 0;
+}
+
+.card-button-body {
+    margin: 0 15px 0 215px;
+}
+
+@media (max-width: 767px) {
+    .card-button {
+        bottom: 20%;
+    }
+    .card-button-body {
+        margin: 0 12px 0 12px;
+    }
+}
